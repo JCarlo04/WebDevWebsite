@@ -1,0 +1,235 @@
+h2{
+    color: red;
+    font-size: larger;
+}
+
+#anal{
+    color: black;
+    font-size: larger;
+    text-align: center;
+}
+
+#admin{
+    color: black;
+    font-size: xx-large;
+    align-self: center;
+    text-align: center;
+    
+}
+
+#wellcome{
+    align-self: center;
+    padding-left: 500px;
+}
+
+#dashboard {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+  } 
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f0ece2; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+table, th, td {
+     border: 1px solid;
+     width: 35%;
+     text-align: center;
+     align-content: center;
+}
+
+
+tr:hover {background-color:#c7b198}
+
+
+#info-col {
+    padding: 20px;
+    background: #dfd3c3; 
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;   
+}
+
+#hawk2{
+    color: black;
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+    padding: 20px 0;
+    background: #596e79;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+#registration_page{
+    margin: 5px;
+    padding: 5px;
+    align-self: center;
+}
+
+#nav {
+    background: #c7b198;
+    overflow: hidden;
+}
+
+#nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s;
+}
+
+#nav ul li a:hover {
+    background: #dfd3c3; 
+}
+
+#content {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+#content{
+    size: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+#reddit{
+    width: 100%;
+    height: auto;
+}
+
+#contentLogin {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+#contentLogin{
+    size: 100%;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 20px;
+}
+
+#footer {
+    text-align: center;
+    background: #596e79;
+    color: white;
+    position:relative;
+    border-bottom: 0px;
+}
+
+
+.buttons{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.plsplspls{
+    font-size: xx-large;
+    color: red;
+    
+}
+
+.errorocc{
+    color: red;
+}
+
+.content-view-users{
+    text-align: center;
+}
+
+.content-table{
+    margin-left: 595px;
+}
+
+#delete_user{
+    color: red;
+    font-size: large;
+}
+
+
+#nav2 {
+    background: #c7b198;
+    overflow: hidden;
+}
+
+#nav2 ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav2 ul li {
+    display: inline;
+}
+
+#nav2 ul li a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s;
+}
+
+#nav2 ul li a:hover {
+    background: #dfd3c3; 
+}
+
+
+#submit {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#submit:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  #submit {
+    padding: 10px 30px;
+  }
+}

@@ -1,0 +1,112 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f0ece2; 
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+#info-col {
+    padding: 20px;
+    background: #dfd3c3; 
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;   
+}
+
+
+#header {
+    text-align: center;
+    padding: 20px 0;
+    background: #596e79;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+#nav {
+    background: #c7b198;
+    overflow: hidden;
+}
+
+#nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav ul li {
+    display: inline;
+}
+
+#nav ul li a {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav ul li a:hover {
+    background: #dfd3c3; 
+}
+
+#content {
+    padding: 20px;
+    margin: 20px 0;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+
+
+
+#footer {
+    text-align: center;
+    background: #596e79;
+    color: white;
+    position:relative;
+    border-bottom: 0px;
+}
+
+#input_boxes {
+    color:#596e79;
+    padding-top: 10px;
+}
+
+#reg_com{
+    color: aqua;
+}
+
+#registration-page{
+    align-items: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 150px 350px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.plsplspls{
+    font-size: xx-large;
+    color: red;
+    
+}
+
+.errorocc{
+    color: red;
+}
+
+.table{
+    padding: 50px;
+    color: antiquewhite;
+    display: inline-block;
+    border: 100px;
+
+}
+
+
+
